@@ -1,8 +1,7 @@
 ---
 title: "NFL Picks"
-author: "Peter Ehmann"
-date: '`r Sys.Date()`'
 output: github_document
 ---
 
 Analysis of NFL lines (+/-) to identify patterns and trends for successful betting strategies.
+
