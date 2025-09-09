@@ -8,9 +8,9 @@ out <- df |>
 # write as csv format to view on git & download
 write.csv(
   x    = out, 
-  file = "./data/nfl-picks.csv", row.names = FALSE, na = "")
+  file = "./data/raw/nfl-picks.csv", row.names = FALSE, na = "")
 
 # write as parquet for analysis
 arrow::write_parquet(
   x    = out,
-  sink = "./data/nfl-picks.parquet")
+  sink = "./data/raw/nfl-picks.parquet")
