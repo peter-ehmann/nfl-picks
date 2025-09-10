@@ -3,7 +3,7 @@ df <- arrow::open_dataset("./data/raw/nfl-picks.parquet")
 
 # filter to season and week
 season_     <- 2025
-week_       <- 2
+week_       <- 1
 week_string <- stringr::str_pad(week_, width = 2, pad = "0", side = "left")
 
 # get best odds on Sunday
